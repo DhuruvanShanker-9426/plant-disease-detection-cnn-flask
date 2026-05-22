@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Leaf Image</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card upload-card">
+            <h1>📤 Upload Leaf Image</h1>
+
+            <p class="subtitle">
+                Choose a clear plant leaf image for disease prediction.
+            </p>
+
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <div class="upload-box">
+                    <input type="file" name="image" accept="image/*" required>
+                </div>
+
+                <button type="submit" class="btn">Predict Disease</button>
+            </form>
+
+            <a href="/" class="back-link">← Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>
