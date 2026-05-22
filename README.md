@@ -222,19 +222,19 @@ The web app allows users to:
 
 ### Home Page
 
-![Home Page](images/home-page.png)
+<img src="images/home-page.png" width="100%"><br>
 
 ### Upload Page Without Image
 
-![Upload Page Without Image](images/upload-page-without-image.png)
+<img src="images/upload-page-without-image.png" width="100%"><br>
 
 ### Upload Page With Image
 
-![Upload Page With Image](images/upload-page-with-image.png)
+<img src="images/upload-page-with-image.png" width="100%"><br>
 
 ### Prediction Result Page
 
-![Prediction Result Page](images/prediction-result.png)
+<img src="images/prediction-result.png" width="100%"><br>
 
 ---
 
